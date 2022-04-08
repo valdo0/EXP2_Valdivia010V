@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Josefin+Slab:wght@500&family=Kumbh+Sans:wght@900&display=swap" rel="stylesheet">
+    <title>Pet Society</title>
+    <link rel="icon" href="img/dog.ico">
+    <link rel="stylesheet" href="iconos/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+     <!-- Barra de navegacion -->
+     <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand texto" href="#"  style="font-family: 'Josefin Sans', serif;"> <img src="img/dog.png" width="80px" alt=""> Pet Society</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"style="font-family: 'Josefin Sans', serif;">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="accesorios.html"style="font-family: 'Josefin Sans', serif;">Accesorios</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="font-family: 'Josefin Sans', serif;">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item " href="perro.html"style="font-family: 'Josefin Sans', serif;">Para Perro</a></li>
+                    <li><a class="dropdown-item " href="gato.html"style="font-family: 'Josefin Sans', serif;">Para Gato</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="contacto.html"style="font-family: 'Josefin Sans', serif;">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="quienes-somos.html"style="font-family: 'Josefin Sans', serif;">Quienes Somos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+  </div>
+<!-- Carousel o Slider -->
+<div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slider1.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider2.png" class="d-block w-100  img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider3.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next info" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Casillas para Tipos de Producto -->
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="" class="fotos1"><img class="fotos img-fluid" src="img/producto_gato.jpg"  alt=""></a>
+
+            </div>
+            <div class="col-sm-4 ">
+              <a href="" class="fotos1"><img class="fotos img-fluid" src="img/producto_perro.jpg" alt=""></a>
+
+            </div>
+            <div class="col-sm-4">
+              <a href="accesorios.html" class="fotos1"><img class="fotos img-fluid" src="img/accesorios.jpg" alt=""></a>
+
+            </div>
+
+        </div>
+      </div> 
+      <!-- Productos -->
+      <h1 class="titulo1" style="font-family: 'Kumbh Sans', sans-serif;">Productos Destacados</h1> 
+      
+      <div class="container">
+        <hr style="border: 1px solid red">
+          <div class="row">
+            
+              <div class="col-sm-3">
+                <a href=""><img src="img/1.png" alt="" class="fotos img-fluid"></a>
+                <a class="precios" href=""><h5 class="w-70">Comida Perro Adulto-Cannes</h5><p>$39.990</p></a>
+  
+              </div>
+              <div class="col-sm-3">
+              <a href=""><img src="img/2.png" alt="" class="fotos img-fluid"></a>
+              <a class="precios" href=""><h5 class="w-70">Trocito Carne Master Dog</h5>
+                <p>$9.990</p></a>
+  
+
+            </div>
+            <div class="col-sm-3">
+            <a href=""><img src="img/3.png" alt="" class="fotos img-fluid"></a>
+            <a class="precios" href=""><h5 class="w-70">Comida de Perro Fit Formula</h5>
+              <p>$44.990</p></a>
+
+
+            </div>
+            <div class="col-sm-3">
+            <a href=""><img src="img/4.png" alt="" class="fotos img-fluid"></a>
+            <a class="precios" href=""><h5 class="w-70">Comida Para Perro AnimalPlanet</h5>
+              <p>$39.990</p></a>
+
+
+            </div>
+
+              
+          </div>
+
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-3 text-center">
+            <a href=""><img src="img/5.png" alt="" class="fotos img-fluid" ></a>
+            <a class="precios" href=""><h5 class="w-70">Polera Perro Mediano</h5>
+              <p>$18.990</p></a>
+
+            </div>
+            <div class="col-sm-3">
+            <a href=""><img src="img/6.png" alt="" class="fotos img-fluid"></a>
+            <a class="precios" href=""><h5 class="w-70">Casa Para Gato</h5>
+              <p>$29.990</p></a>
+
+          </div>
+          <div class="col-sm-3">
+          <a href=""><img src="img/7.png" alt="" class="fotos img-fluid"></a>
+          <a class="precios" href=""><h5 class="w-70">Zeedog -Gotham air Mesh</h5>
+            <p>$19.990</p></a>
+          </div>
+          <div class="col-sm-3">
+          <a href=""><img src="img/8.png" alt="" class="fotos img-fluid"></a>
+          <a class="precios" href=""><h5 class="w-80">Collar Catit</h5>
+            <p>$15.990</p></a>
+
+          </div>
+
+            
+        </div>
+
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-3">
+            <a href=""><img src="img/9.png" alt="" class="fotos img-fluid" ></a>
+            <a class="precios" href=""><h5 class="w-70">Correa Catit</h5>
+            <p>$15.990</p></a>
+          </div>
+          <div class="col-sm-3">
+          <a href=""><img src="img/10.png" alt="" class="fotos img-fluid"></a>
+          <a class="precios" href=""><h5 class="w-70">Collar Zeedog</h5>
+            <p>$15.990</p></a>
+
+        </div>
+        <div class="col-sm-3">
+        <a href=""><img src="img/11.png" alt="" class="fotos img-fluid"></a>
+        <a class="precios" href=""><h5 class="w-70">Fuente Para comida</h5>
+          <p>$18.990</p></a>
+
+        </div>
+        <div class="col-sm-3">
+        <a href=""><img src="img/12.png" alt="" class="fotos img-fluid"></a>
+        <a class="precios" href=""> <h5 class="w-70">Comida Para Perro Wits</h5>
+          <p>$35.990</p></a>
+
+        </div>
+
+          
+      </div>
+
+  </div>
+    <!-- video -->
+
+<div class="container mt-5 p-4">
+  <div class="row">
+    <h1 class="text-center" style="font-family: 'Kumbh Sans', sans-serif;">Productos Recomendados Por Expertos</h1>
+    <hr style="border: 1px solid red">
+    <div class="col-md-6 mt-5">
+      <div class=" video-responsive">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-xBdTLXULZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-md-6 mt-5 d-flex align-self-center naranjo">
+      <p class="lead text-white" style="font-family: 'Josefin Slab', serif;">Puedes encontrar estos y otros accesorios en nuestra pagina web.Solo tienes que ir a la barra de navegacion y pinchar accesorios.</p>
+    </div>
+
+  </div>
+
+
+</div>
+
+<div class="container mt-5">
+  <h1 class="text-center"style="font-family: 'Kumbh Sans', sans-serif;">¡Gracias Por Tu Ayuda!</h1>
+  <hr style="border: 1px solid red">
+  <div class="row mt-5">
+    <div class="col-md-6 d-flex align-self-center naranjo">
+      <p class="lead text-white" style="font-family: 'Josefin Slab', serif;">
+        Por la compra de cualquier producto estaras ayudando a una fundación.Además de ser un  regaloneo para tu máscota ,
+        también lo es para  nuestros amigos de la fundación.
+      </p>
+
+    </div>
+    <div class="col-md-6">
+      <img src="img/perros.jpg" class="img-fluid w-10" alt="">
+
+    </div>
+
+  </div>
+
+</div>
+
+        <!-- footer -->
+</div>
+<footer>
+  <div class="container-fluid bg-dark p-4 mt-5">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 col-md-3">
+        <h6 style="font-family: 'Josefin Sans', serif;" class="text-white">CONTACTO</h6>
+        <h6 class="text-white">
+          <br style="font-family: 'Josefin S', serif;" >Av. Esq. Blanca 501, Maipú, Región Metropolitana <br> 
+          Telefonos:+56987654321 - +5691234568 <br> <br>
+        </h6>
+
+
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <h6 class="text-white">ENCUENTRANOS EN LAS REDES </h6>
+        <div>
+          <br>
+          <a class="facebook" href="https://www.facebook.com/"><i class="icon1 fa-brands fa-facebook fa-2xl "></i></a>
+          <a class="twitter" href="https://twitter.com/"><i class="icon1 fa-brands fa-twitter fa-2xl "></i></a>
+          <a class="youtube" href="https://www.youtube.com/"><i class="icon1 fa-brands fa-youtube fa-2xl "></i></a>
+          <a class="instagram" href="https://www.youtube.com/"><i class="icon1 fa-brands fa-instagram fa-2xl "></i></a>
+
+
+        </div>
+
+      </div>
+
+    </div>
+    <div>
+      <br>
+      <br>
+      <h6 class="fin text-white">Sebastian Valdivia.Todos Los Derechos Reservados ©. Pagina Creada Por Valdo0</h6>
+    </div>
+
+  </div>
+</footer>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+</html>
