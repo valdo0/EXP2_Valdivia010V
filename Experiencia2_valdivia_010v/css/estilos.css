@@ -1,0 +1,195 @@
+
+.imagen{
+    height: 800px;
+    width: auto;
+
+}
+.fotos{
+    padding:15%;
+    height: 100%;
+    width:auto;
+}
+.titulo1{
+    text-align: center;
+    padding-top: 5%;
+    
+}
+.icon1{
+    color: white;
+}
+.icon2{
+    color: black;
+}
+.fin{
+    text-align: center;
+
+}
+.facebook :hover{
+    color:#3b5998;
+}
+.youtube :hover{
+    color:red;
+}
+.twitter :hover{
+    color:#00acee;
+}
+.instagram :hover{
+    color: #C13584;
+}
+.facebook2{
+    color:#3b5998;
+}
+.youtube2{
+    color:red;
+}
+.twitter2{
+    color:#00acee;
+}
+.instagram2{
+    color: #C13584;
+}
+.facebook2:hover{
+    opacity:0.2;
+}
+.youtube2:hover{
+    opacity:0.2;
+}
+.twitter2:hover{
+    opacity:0.2;
+}
+.instagram2:hover{
+    opacity:0.2;
+}
+.nav-link{
+    border-radius: 5px;
+
+}
+.nav-link:hover{
+    background-color:#DB5D16;
+    opacity:0.7;
+    transition: 1s;
+    height: 150%;
+}
+li .dropdown-item:hover{
+    background-color:#DB5D16;
+    opacity:0.7;
+    transition: 1s;
+}
+.fotos1 :hover{
+    width: 85%;
+    background-color:black;
+    transition: 1s;
+    opacity: 0.3;
+}
+
+.mapa{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.mapa iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:400px;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.naranjo{
+    background-color: #ff914d;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 3px 5px grey;
+}
+p{
+    text-justify: center;
+}
+.precios{
+    text-decoration: none;
+    color: black;
+}
+.precios:hover{
+    color:black;
+}
+.sombra{
+    text-shadow: 2px 2px 3px #fff;
+}
+.btn-primary{
+    background-color: #DB5D16 !important;
+    border-color:#DB5D16 !important ;
+}
+.a{
+    color: black;
+}
+.b{
+    color: black;
+    opacity: 0.15;
+}
+.dark h1{
+    color: white;
+}
+.dark{
+    background-color: #403F3F;
+    color: white;
+}
+.dark a{
+    color: white !important;
+}
+.dark .dropdown-menu{
+    background-color: black !important;
+}
+.dark .container-fluid{
+    background-color: black;
+}
+.dark th{
+    color: white;
+}
+.dark td{
+    color: white;
+}
+.dark .navbar-toggler{
+    background-color: white;
+}
+
+span{
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Bellota', cursive;
+    color: white;
+    position:relative;
+}
+.clockdate{
+    background-color: #DB5D16;
+    border-radius:100px;
+    position: relative;
+    padding: 1%;
+}
+#time{
+    font-size: 300%;
+}
+.reloj{
+    margin-top: 1%;
+    display: block;
+    text-align: center;
+    font-family: 'Bellota', cursive;
+    color: white;
+    position:relative;
+    font-size: 70%;
+
+}
+
+
